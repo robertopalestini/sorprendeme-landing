@@ -1,0 +1,29 @@
+
+.navbar-item {
+    padding: 2;
+    margin-right:5rem;
+    font-size: 1rem;
+    font-stretch: semi-expanded;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:3rem;
+}
+
+.navbar-tittle {
+    margin-top: px;
+}
+
+.navbar-logo {
+    width: 250px;
+    margin-top:-20px;
+    margin-left: 10%;
+}
+
+.navbar-typologo {
+    font-size: 30px;
+    margin-left: -40%;
+    font-family: "Open Sans";
+    font-weight: 800;
+    color: #4A50A2;
+}

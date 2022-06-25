@@ -1,0 +1,28 @@
+.services-item {
+    width:30px;
+    height: 30px;
+}
+
+.service-grid {
+
+}
+
+.service-icon {
+    margin-top:-40px;
+}
+
+.services-desc {
+    font-size: 12px
+}
+
+.services-background {
+    background-color:#F5F5F6;   
+    padding-top:40px 
+}
+
+.services-p {
+    width:300px;
+}
+
+.services {margin-top:800px;}
+

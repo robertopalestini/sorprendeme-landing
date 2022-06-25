@@ -1,0 +1,11 @@
+.solutions {
+    background-image: url('/src/images/solutionsbackgroundd.jpg');
+    /* background-color: slateblue; */
+    margin-top:-20px;
+}
+
+.solutions-tittle{
+    margin-bottom:-5px;
+    color: white;
+    font-weight: 300
+}

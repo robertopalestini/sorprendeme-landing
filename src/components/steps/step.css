@@ -1,0 +1,18 @@
+.step-background {
+    position:relative;
+    background-color: #F5F6F6;
+    
+}
+.box {
+  padding:11% 0; /* The padding is the area for the shapes, adjust it based on the ratio of the shape*/
+  height:100px; /* to illustrate the space for the content */
+  background:
+  url('/src/images/stepswave-01.png') top   /100% auto;
+  background-repeat:no-repeat;
+}
+
+.step-icon {
+    height:175px;
+    width: 175px;
+    margin-top:-20px;
+}

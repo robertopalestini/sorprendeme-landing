@@ -1,0 +1,16 @@
+.hero-image {
+    width: 400px;
+    border-radius: 10px;
+    border:0.5px;
+}
+
+.hero-p {
+    margin-top:-18px;
+    width:400px;
+    
+}
+
+.hero-tittle{
+    margin-top:-18px;
+    color: #4A50A2
+}

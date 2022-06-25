@@ -1,0 +1,13 @@
+.about-p {
+    width: 600px;
+    text-align: center
+}
+
+.about-logo {
+    width:400px;
+}
+
+.about-p-link {
+    color: slateblue;
+    font-weight: bold
+}
