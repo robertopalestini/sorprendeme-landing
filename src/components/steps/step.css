@@ -1,18 +1,85 @@
+
 .step-background {
-    position:relative;
-    background-color: #F5F6F6;
-    
+    background-image: url("/src/images/step/Background.png");
+    height: 1000px;
 }
-.box {
-  padding:11% 0; /* The padding is the area for the shapes, adjust it based on the ratio of the shape*/
-  height:100px; /* to illustrate the space for the content */
-  background:
-  url('/src/images/stepswave-01.png') top   /100% auto;
-  background-repeat:no-repeat;
+
+.search-icon {
+  height: 229px;
+  width: 229px;
+  background-image: url("/src/images/step/SearchIcon.svg");
+  background-size: auto;
+  position: absolute;
+  top:980px;
+  left:180px;
+  z-index: 1;
 }
 
 .step-icon {
     height:175px;
     width: 175px;
     margin-top:-20px;
+}
+
+.part-one {
+  position:absolute;
+  top:755px;
+  left: 450px;
+}
+.part-two {
+  position:absolute;
+  top:1270px;
+  left: 650px;
+}
+
+.trazado-background {
+  position: absolute ;
+  left: 297px;
+  top: 880px;
+  background-position: center;
+  background-image: url("/src/images/step/Stepper-01.svg");
+  height: 407px;
+  width: 1327px;
+}
+
+.step-one {
+  height: 300px;
+  width: 300px;
+  background-image: url("/src/images/step/Step1.svg");
+  background-size: auto;
+  position: absolute;
+  left: 50px;
+  top: 135px;
+}
+.step-two {
+  height: 300px;
+  width: 300px;
+  background-image: url("/src/images/step/Step2.svg");
+  position: absolute;
+  left: 280px;
+  top: -30px;
+}
+.step-three {
+  height: 300px;
+  width: 300px;
+  background-image: url("/src/images/step/Step3.svg");
+  position: absolute;
+  left: 508px;
+  top: 135px;
+}
+.step-four {
+  height: 300px;
+  width: 300px;
+  background-image: url("/src/images/step/Step4.svg");
+  position: absolute;
+  left: 735px;
+  top: -30px;
+}
+.step-five {
+  height: 300px;
+  width: 300px;
+  background-image: url("/src/images/step/Step5.svg");
+  position: absolute;
+  left: 965px;
+  top: 135px;
 }

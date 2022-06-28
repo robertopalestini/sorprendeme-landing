@@ -1,10 +1,22 @@
 .services-item {
-    width:30px;
-    height: 30px;
+    width: 50px;
+    height:50px;
+    margin-top: 1em;
+    display: inline-grid;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    color: #6c757d
+
 }
 
-.service-grid {
-
+.service-image {
+/* height: 548px; */
+margin-left: 15%;
+width: 700px;
+border-radius: 2%;
+border-image: 2px;
+border-color: #F5F5F6
 }
 
 .service-icon {
@@ -12,7 +24,7 @@
 }
 
 .services-desc {
-    font-size: 12px
+    font-size: 16px
 }
 
 .services-background {
@@ -21,10 +33,11 @@
 }
 
 .services-p {
-    width:300px;
+    width:370px;
+    color: #6c757d
 }
 
-.services {margin-top:400px;}
+.services {margin-top:60px;}
 
 
 @media only screen and (max-width: 1115px) {

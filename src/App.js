@@ -6,6 +6,7 @@ import Solutions from "./components/solutions";
 import About from "./components/about";
 import Form from "./components/form";
 import Step from "./components/steps";
+import './App.css'
 
 function App() {
   return (

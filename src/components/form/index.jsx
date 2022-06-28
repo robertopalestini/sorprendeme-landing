@@ -6,7 +6,14 @@ import { Button } from 'primereact/button';
 import MailIcon from './../../images/contact/material-mail-outline.svg'
 import PhoneIcon from './../../images/contact/material-phone-in-talk.svg'
 import PhoneLinkIcon from './../../images/contact/material-phonelink-ring.svg'
+import ContactIcon from './../../images/contact/Icon material-s.svg'
 
+
+const LabelForm = 
+    <>
+    <p className="form-button">Enviar <img src={ContactIcon} style={{marginLeft:"10px"}} alt="Contact icon"/> </p>
+    </>
+    
 
 const Form = () => {
     return (
@@ -20,24 +27,22 @@ const Form = () => {
             <div className="p-d-none p-d-md-inline">
                 <div className='p-d-flex p-jc-center p-mt-4'>
                     <div className="p-grid">
-                        <div className="p-col  p-jc-center ">
-                            <p >
-                                <img src={PhoneIcon} alt="" className="p-mr-3" />
+                        <div className="p-col  p-jc-center " style={{ marginLeft: "20%" }}>
+                            <p className="contact-p">
+                                <img src={PhoneIcon} alt="" className="p-mr-3" style={{ height: "23px", width: "23px" }} />
                                 (0351) 153 88 32 57
-                    </p>
-                            <p>
-                                <img src={PhoneLinkIcon} alt="" className="p-mr-3" />
-                                (0351) 496 1326 int. 1009
-                    </p>
-                            <p>
-                                <img src={MailIcon} alt="" className="p-mr-3" />
-                                comercial@boxcustodia.com
-                    </p>
-                            <p className="about-p-link p-d-flex">Conocé nuestra empresa Box custodia
-                        <img src={ArrowIcon} alt="" className="p-ml-3" />
                             </p>
+                            <p className="contact-p">
+                                <img src={PhoneLinkIcon} alt="" className="p-mr-3" style={{ height: "23px", width: "23px" }} />
+                                (0351) 496 1326 int. 1009
+                            </p>
+                            <p className="contact-p">
+                                <img src={MailIcon} alt="" className="p-mr-3" style={{ height: "23px", width: "23px" }} />
+                                comercial@boxcustodia.com
+                            </p>
+
                         </div>
-                        <div className="p-col p-d-flex ">
+                        <div className="p-col p-d-flex  " style={{ marginLeft: "-20%" }}>
                             <div className="p-fluid p-formgrid p-grid">
                                 <div className="p-field p-col-8 p-md-8">
                                     <InputText id="nombreyapellido" placeholder="Nombre y apellido" type="text" />
@@ -55,7 +60,7 @@ const Form = () => {
                                     <InputTextarea id="mensaje" placeholder="Mensaje" type="text" />
                                 </div>
                                 <div className="p-field p-col-8">
-                                    <Button type="button" label="Enviar" className="form-button" />
+                                    <Button type="button" label={LabelForm} className="form-button" />
                                 </div>
                             </div>
                         </div>
@@ -64,7 +69,7 @@ const Form = () => {
             </div>
 
             <div class="p-d-md-none">
-            <div className='p-d-flex p-md-jc-center p-md-ai-center p-mt-4'>
+                <div className='p-d-flex p-md-jc-center p-md-ai-center p-mt-4'>
                     <div className=" p-md-jc-center ">
                         <div className=" p-jc-center ">
                             <p >
@@ -79,9 +84,7 @@ const Form = () => {
                                 <img src={MailIcon} alt="" className="p-mr-3" />
                                 comercial@boxcustodia.com
                     </p>
-                            <p className="about-p-link p-d-flex">Conocé nuestra empresa Box custodia
-                        <img src={ArrowIcon} alt="" className="p-ml-3" />
-                            </p>
+
                         </div>
                         <div className="p-d-flex ">
                             <div className="p-fluid p-formgrid p-grid">
@@ -101,7 +104,7 @@ const Form = () => {
                                     <InputTextarea id="mensaje" placeholder="Mensaje" type="text" />
                                 </div>
                                 <div className="p-field p-col-11">
-                                    <Button type="button" label="Enviar" className="form-button" />
+                                    <Button type="button"  label={LabelForm} className="form-button" />
                                 </div>
                             </div>
                         </div>

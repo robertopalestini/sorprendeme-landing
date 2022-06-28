@@ -8,6 +8,13 @@
     justify-content: center;
     align-items: center;
     height:3rem;
+    margin-left: 5%
+}
+
+.brandcolor {
+    background-color: #4a50fd;
+    height: 40px;
+    /* border-radius: 1%; */
 }
 
 .navbar-item span a {
@@ -27,14 +34,14 @@
 .navbar-logo {
     width: 250px;
     margin-top:-15px;
-    margin-left: -45%;
+    margin-left: 0%;
 }
 
 .navbar-typologo {
     font-size: 28px;
     margin-left: -40%;
-    font-family: "Open Sans";
-    font-weight: 800;
+    
+    font-weight: 200;
     color: #4A50A2;
 }
 

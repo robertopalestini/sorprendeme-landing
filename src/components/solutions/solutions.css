@@ -7,5 +7,17 @@
 .solutions-tittle{
     margin-bottom:-5px;
     color: white;
-    font-weight: 300
+    font-weight: 100
 }
+
+
+@media only screen and (max-width: 700px) {
+    .solutions {
+        background-color: #4a50fd;
+        /* background-color: slateblue; */
+        margin-top:-20px;
+    }
+  }
+
+
+
