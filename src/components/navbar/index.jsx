@@ -18,7 +18,7 @@ const Navbar = () => {
             <div className="p-d-none p-d-lg-inline">
                 <div className="p-d-flex p-jc-between p-ai-center p-mt-4">
                     <div className="navbar-item">
-                        <img src={Logo} alt="" className="navbar-logo" />
+                        <img width="" height="" src={Logo} alt="" className="navbar-logo" />
                         <h3 className="navbar-typologo">Sorprendeme</h3>
                     </div>
                     <div className="navbar-item" style={{ "marginRight": "12%" }}>
@@ -45,7 +45,7 @@ const Navbar = () => {
                     {/* <i className="pi pi-bars" style={{ 'fontSize': '2em', 'color': '#000' }}></i> */}
                     </div>
                     <div className="navbar-item" style={{ marginLeft: "-20px" }}>
-                        <img src={Logo} alt="" className="navbar-logo" />
+                        <img width="" height="" src={Logo} alt="" className="navbar-logo" />
                         <h2 className="navbar-typologo" >Sorprendeme</h2>
                     </div>
                     <div className="navbar-item">

@@ -13,14 +13,14 @@ const Solutions = () => {
             </div>
             <div className="p-d-flex p-flex-column p-flex-md-row p-jc-center p-mt-3 ">
                 <div className="p-mr-2 p-d-flex  p-jc-center">
-                    <img src={JornalYa} alt="" />
+                    <img width="" height="" src={JornalYa} alt="" />
 
                 </div>
                 <div className="p-mr-2 p-d-flex  p-jc-center">
-                    <img src={SignBox} alt="" />
+                    <img width="" height="" src={SignBox} alt="" />
                 </div>
                 <div className="p-d-flex  p-jc-center">
-                    <img src={Workflow} alt="" />
+                    <img width="" height="" src={Workflow} alt="" />
                 </div>
             </div>
         </div>

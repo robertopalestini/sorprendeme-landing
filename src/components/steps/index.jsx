@@ -91,20 +91,20 @@ const Steps = () => {
 
                     <div className="p-grid " style={{ width: "70%", marginTop:"20%"}}>
                         <div className="p-col">
-                            <img src={StepOne} alt="" className="step-icon" />
+                            <img width="" height="" src={StepOne} alt="" className="step-icon" />
                         </div>
 
                         <div className="p-col">
-                            <img src={StepTwo} alt="" className="step-icon" />
+                            <img width="" height="" src={StepTwo} alt="" className="step-icon" />
                         </div>
                         <div className="p-col">
-                            <img src={StepThree} alt="" className="step-icon" />
+                            <img width="" height="" src={StepThree} alt="" className="step-icon" />
                         </div>
                         <div className="p-col">
-                            <img src={StepFour} alt="" className="step-icon" />
+                            <img width="" height="" src={StepFour} alt="" className="step-icon" />
                         </div>
                         <div className="p-col">
-                            <img src={StepFive} alt="" className="step-icon" />
+                            <img width="" height="" src={StepFive} alt="" className="step-icon" />
                         </div>
 
                     </div>

@@ -10,7 +10,7 @@ const Hero = () => {
             <div className='p-d-flex  p-jc-center p-mt-4'>
                 <div className="p-grid"   style={{"marginLeft": "80px"}}>
                     <div className="p-col">
-                        <img src={HeroImage} alt="Sorprendeme" className="hero-image " />
+                        <img width="" height="" src={HeroImage} alt="Sorprendeme" className="hero-image " />
                     </div>
                     <div className="p-col-12 md:p-col-6 lg:p-col-3 p-mx-auto">
                         <h3 style={{ color: '#4a50fd' }}>Más que un repositorio,</h3>
@@ -33,7 +33,7 @@ const Hero = () => {
                     </div>
 
                     <div className="p-col">
-                        <img src={HeroImage} alt="Sorprendeme" className="hero-image " />
+                        <img width="" height="" src={HeroImage} width="" height="" alt="Sorprendeme" className="hero-image " />
                     </div>
                 </div>
             </div>

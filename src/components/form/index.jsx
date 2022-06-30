@@ -12,7 +12,7 @@ import ContactIcon from './../../images/contact/Icon material-s.svg'
 
 const LabelForm = 
     <>
-    <p className="form-button">Enviar <img src={ContactIcon} style={{marginLeft:"10px"}} alt="Contact icon"/> </p>
+    <p className="form-button">Enviar <img width="" height="" src={ContactIcon} width="" height="" style={{marginLeft:"10px"}} alt="Contact icon"/> </p>
     </>
     
 
@@ -30,15 +30,15 @@ const Form = () => {
                     <div className="p-grid">
                         <div className="p-col  p-jc-center " style={{ marginLeft: "20%" }}>
                             <p className="contact-p">
-                                <img src={PhoneIcon} alt="" className="p-mr-3" style={{ height: "23px", width: "23px" }} />
+                                <img width="" height="" src={PhoneIcon} alt="" className="p-mr-3" style={{ height: "23px", width: "23px" }} />
                                 (0351) 153 88 32 57
                             </p>
                             <p className="contact-p">
-                                <img src={PhoneLinkIcon} alt="" className="p-mr-3" style={{ height: "23px", width: "23px" }} />
+                                <img width="" height="" src={PhoneLinkIcon} alt="" className="p-mr-3" style={{ height: "23px", width: "23px" }} />
                                 (0351) 496 1326 int. 1009
                             </p>
                             <p className="contact-p">
-                                <img src={MailIcon} alt="" className="p-mr-3" style={{ height: "23px", width: "23px" }} />
+                                <img width="" height="" src={MailIcon} alt="" className="p-mr-3" style={{ height: "23px", width: "23px" }} />
                                 comercial@boxcustodia.com
                             </p>
 
@@ -74,15 +74,15 @@ const Form = () => {
                     <div className=" p-md-jc-center ">
                         <div className=" p-jc-center ">
                             <p >
-                                <img src={PhoneIcon} alt="" className="p-mr-3" />
+                                <img width="" height="" src={PhoneIcon} alt="" className="p-mr-3" />
                                 (0351) 153 88 32 57
                     </p>
                             <p>
-                                <img src={PhoneLinkIcon} alt="" className="p-mr-3" />
+                                <img width="" height="" src={PhoneLinkIcon} alt="" className="p-mr-3" />
                                 (0351) 496 1326 int. 1009
                     </p>
                             <p>
-                                <img src={MailIcon} alt="" className="p-mr-3" />
+                                <img width="" height="" src={MailIcon} alt="" className="p-mr-3" />
                                 comercial@boxcustodia.com
                     </p>
 
