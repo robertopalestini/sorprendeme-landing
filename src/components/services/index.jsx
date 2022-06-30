@@ -12,6 +12,7 @@ import IconNine from './../../images/services/engranaje.svg'
 import Encontra from './../../images/services/encontra.svg'
 import Optimiza from './../../images/services/optimiza.svg'
 import './services.css'
+import './../../App.css'
 
 const Services = () => {
     return (

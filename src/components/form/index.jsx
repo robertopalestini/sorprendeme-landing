@@ -1,5 +1,6 @@
 import ArrowIcon from './../../images/arrow.svg'
 import './form.css'
+import './../../App.css'
 import { InputText } from 'primereact/inputtext';
 import { InputTextarea } from 'primereact/inputtextarea';
 import { Button } from 'primereact/button';

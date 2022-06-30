@@ -40,7 +40,35 @@ border-color: #F5F5F6
 .services {margin-top:60px;}
 
 
-@media only screen and (max-width: 1115px) {
-    .services {margin-top:850px;}
+@media only screen and (max-width: 700px) {
+    .services {margin-top:25px;}
+
+    .services-item {
+        width: 30px;
+        height:30px;
+        margin-top: 1em;
+        display: inline-grid;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        color: #6c757d
+    
+    }
+    .services-desc {
+        font-size: 12px
+    }
+    .service-image {
+        /* height: 548px; */
+        margin-left: 5px;
+        max-width: 600px;
+        border-radius: 2%;
+        border-image: 2px;
+        border-color: #F5F5F6
+        }
+
+        .services-p {
+            width:200px;
+            color: #6c757d
+        }
   }
 

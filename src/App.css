@@ -1,7 +1,12 @@
 * {
-    font-family: 'Poppins'
+    font-family: 'Poppins';
+}
+
+body {
+    margin: 0
 }
 
 .brandcolor {
     background-color: #4a50fd
 }
+

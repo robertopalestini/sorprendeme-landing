@@ -1,5 +1,6 @@
 import Box from './../../images/logo_header.svg'
 import './about.css'
+import './../../App.css'
 import ArrowIcon from './../../images/arrow.svg'
 
 const About = () => {

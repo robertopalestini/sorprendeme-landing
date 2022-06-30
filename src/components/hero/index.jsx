@@ -1,5 +1,6 @@
 import HeroImage from './../../images/HeroImage.png'
 import './hero.css'
+import './../../App.css'
 import { Button } from 'primereact/button';
 
 const Hero = () => {

@@ -1,5 +1,6 @@
-import 'primeflex/primeflex.css';
+// import 'primeflex/primeflex.css';
 import './footer.css'
+import './../../App.css'
 
 const Footer = () => {
     return (
