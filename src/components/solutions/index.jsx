@@ -1,9 +1,3 @@
-import './solutions.css'
-import './../../App.css'
-import JornalYa from './../../images/JornalYaLogo.svg'
-import SignBox from './../../images/SignBoxLogo.svg'
-import Workflow from './../../images/WorkflowLogo.svg'
-
 const Solutions = () => {
     return (
         <>
@@ -11,22 +5,24 @@ const Solutions = () => {
             <div className='p-d-flex  p-jc-center p-mt-4'>
                 <h1 className="solutions-tittle">Conoce nuestras soluciones</h1>
             </div>
-            <div className="p-d-flex p-flex-column p-flex-md-row p-jc-center p-mt-3 ">
-                <div className="p-mr-2 p-d-flex  p-jc-center">
-                    <img width="" height="" src={JornalYa} alt="" />
+            <div className="p-d-flex p-flex-column p-flex-md-row p-jc-center p-mt-3 p-ml-6 ">
+                <div className="p-mr-6 p-d-flex  p-jc-center md:p-m">
+                    <img width="" height="" src={`${process.env.PUBLIC_URL}images/JornalYaLogo.svg`} alt="" />
 
                 </div>
-                <div className="p-mr-2 p-d-flex  p-jc-center">
-                    <img width="" height="" src={SignBox} alt="" />
+                <div className="p-mr-6 p-d-flex  p-jc-center">
+                    <img width="" height="" src={`${process.env.PUBLIC_URL}images/SignBoxLogo.svg`} alt="" />
                 </div>
-                <div className="p-d-flex  p-jc-center">
-                    <img width="" height="" src={Workflow} alt="" />
+                <div className="p-mr-6 p-d-flex  p-jc-center">
+                    <img width="" height="" src={`${process.env.PUBLIC_URL}images/WorkflowLogo.svg`} alt="" />
                 </div>
             </div>
         </div>
             </>
        
     )
+   
+    
 }
 
 export default Solutions

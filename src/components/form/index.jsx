@@ -1,18 +1,10 @@
-import ArrowIcon from './../../images/arrow.svg'
-import './form.css'
-import './../../App.css'
 import { InputText } from 'primereact/inputtext';
 import { InputTextarea } from 'primereact/inputtextarea';
 import { Button } from 'primereact/button';
-import MailIcon from './../../images/contact/material-mail-outline.svg'
-import PhoneIcon from './../../images/contact/material-phone-in-talk.svg'
-import PhoneLinkIcon from './../../images/contact/material-phonelink-ring.svg'
-import ContactIcon from './../../images/contact/Icon material-s.svg'
-
 
 const LabelForm = 
     <>
-    <p className="form-button">Enviar <img width="" height="" src={ContactIcon} width="" height="" style={{marginLeft:"10px"}} alt="Contact icon"/> </p>
+    <p className="form-button">Enviar <img width="" height="" src={`${process.env.PUBLIC_URL}images/contact/Icon material-s.svg`} style={{marginLeft:"10px"}} alt="Contact icon"/> </p>
     </>
     
 
@@ -30,15 +22,15 @@ const Form = () => {
                     <div className="p-grid">
                         <div className="p-col  p-jc-center " style={{ marginLeft: "20%" }}>
                             <p className="contact-p">
-                                <img width="" height="" src={PhoneIcon} alt="" className="p-mr-3" style={{ height: "23px", width: "23px" }} />
+                                <img width="" height="" src={`${process.env.PUBLIC_URL}images/contact/material-phone-in-talk.svg`} alt="" className="p-mr-3" style={{ height: "23px", width: "23px" }} />
                                 (0351) 153 88 32 57
                             </p>
                             <p className="contact-p">
-                                <img width="" height="" src={PhoneLinkIcon} alt="" className="p-mr-3" style={{ height: "23px", width: "23px" }} />
+                                <img width="" height="" src={`${process.env.PUBLIC_URL}images/contact/material-phonelink-ring.svg`} alt="" className="p-mr-3" style={{ height: "23px", width: "23px" }} />
                                 (0351) 496 1326 int. 1009
                             </p>
                             <p className="contact-p">
-                                <img width="" height="" src={MailIcon} alt="" className="p-mr-3" style={{ height: "23px", width: "23px" }} />
+                                <img width="" height="" src={`${process.env.PUBLIC_URL}images/contact/material-mail-outline.svg`} alt="" className="p-mr-3" style={{ height: "23px", width: "23px" }} />
                                 comercial@boxcustodia.com
                             </p>
 
@@ -61,7 +53,7 @@ const Form = () => {
                                     <InputTextarea id="mensaje" placeholder="Mensaje" type="text" />
                                 </div>
                                 <div className="p-field p-col-8">
-                                    <Button type="button" label={LabelForm} className="form-button" />
+                                    <Button type="button" label={LabelForm} className="form-button"  style={{"height": "50px"}} />
                                 </div>
                             </div>
                         </div>
@@ -74,15 +66,15 @@ const Form = () => {
                     <div className=" p-md-jc-center ">
                         <div className=" p-jc-center ">
                             <p >
-                                <img width="" height="" src={PhoneIcon} alt="" className="p-mr-3" />
+                                <img width="" height="" src={`${process.env.PUBLIC_URL}images/contact/material-phone-in-talk.svg`} alt="" className="p-mr-3" />
                                 (0351) 153 88 32 57
                     </p>
                             <p>
-                                <img width="" height="" src={PhoneLinkIcon} alt="" className="p-mr-3" />
+                                <img width="" height="" src={`${process.env.PUBLIC_URL}images/contact/material-phonelink-ring.svg`} alt="" className="p-mr-3" />
                                 (0351) 496 1326 int. 1009
                     </p>
                             <p>
-                                <img width="" height="" src={MailIcon} alt="" className="p-mr-3" />
+                                <img width="" height="" src={`${process.env.PUBLIC_URL}images/contact/material-mail-outline.svg`} alt="" className="p-mr-3" />
                                 comercial@boxcustodia.com
                     </p>
 

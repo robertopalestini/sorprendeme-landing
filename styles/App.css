@@ -1,0 +1,413 @@
+* {
+    font-family: 'Poppins';
+}
+
+body {
+    margin: 0
+}
+
+.brandcolor {
+    background-color: #4a50fd
+}
+
+.about-p {
+    width: 600px;
+    color: #2e4765;
+    text-align: center
+}
+
+.about-logo {
+    width:400px;
+}
+
+.about-p-link {
+    color: slateblue;
+    font-weight: bold
+}
+
+.footer {
+    background-color:#2E4866;
+    padding: 1%;
+}
+
+.footer-copyright {
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+}
+
+.form-button {
+    
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.form-p {
+    margin-top:-20px;
+    color:#6c757d
+}
+.contact-p {
+    
+    color:#6c757d
+}
+
+.form-tittle {
+font-weight: 200
+}
+
+.hero-image {
+    width: 500px;
+    border-radius: 10px;
+    border:0.5px;
+}
+
+.hero-p {
+    margin-top:-18px;
+    width:100%;
+    font-size: 20px;
+    font-weight: 400;
+    color: #6c757d
+}
+
+.hero-tittle{
+    margin-top:-18px;
+    color: #4a50fd;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 35px;
+    max-width: 500px;
+}
+
+.hero-button {
+    background-color: #4a50fd;
+    height: 60px;
+    border-radius: 20PX;
+}
+@media only screen and (max-width: 1100px) {
+    .hero-image {
+        width: 350px;
+        border-radius: 10px;
+        border:0.5px;
+    }
+
+}
+
+
+@media only screen and (max-width: 900px) {
+    .hero-image {
+        width: 300px;
+        border-radius: 10px;
+        border:0.5px;
+    }
+    .hero-p {
+        margin-top:-18px;
+        width:400px;
+        
+    }
+    
+    .hero-tittle{
+        margin-top:-18px;
+        color: #4a50fd;
+        line-height: 35px;
+    }
+  }
+
+  .navbar-item {
+    padding: 2;
+    margin-right:1%;
+    font-size: 1rem;
+    font-stretch: semi-expanded;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:3rem;
+    margin-left: 5%
+}
+
+.brandcolor {
+    background-color: #4a50fd;
+    height: 40px;
+    /* border-radius: 1%; */
+}
+
+.navbar-item span a {
+    color: #000;
+    text-decoration: none
+    
+}
+.navbar-item span a:hover {
+    color: #4A50A2;
+    text-decoration: none ;
+}
+
+.navbar-menuitem {
+    margin-left: -30px;
+}
+
+.navbar-logo {
+    width: 250px;
+    margin-top:-15px;
+    margin-left: 0%;
+}
+
+.navbar-typologo {
+    font-size: 28px;
+    margin-left: -40%;
+    
+    font-weight: 600;
+    color: #4A50A2;
+}
+
+@media only screen and (max-width: 999px) {
+    .navbar-typologo {
+        font-size: 28px;
+        margin-left: -55%;
+        font-family: "Poppins";
+        font-weight: 600;
+        color: #4A50A2;
+        max-width: 80px;
+    }
+  }
+
+@media only screen and (max-width: 769px) {
+
+    .navbar-speeddialdemo{
+        margin-top: -50px;
+        margin-left: 15px;
+        width: 60px;
+    }
+
+    .navbar-button-speed {
+        width: 50px;
+        height: 50px;
+        background-color: #fff;
+        border-color: #fff;
+        color: grey
+    }
+
+    
+
+    .navbar-item {
+        padding: 2;
+        /* margin-right:1rem; */
+        font-size: 1rem;
+        font-stretch: semi-expanded;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height:2rem;
+    }
+    .navbar-typologo {
+        font-size: 28px;
+        margin-left: -80%;
+        font-family: "Poppins";
+        font-weight: 600;
+        color: #4A50A2;
+    }
+    .navbar-logo {
+        width: 250px;
+        margin-top:-10px;
+        margin-left: -100px
+    }
+  
+  }
+  .services-item {
+    width: 50px;
+    height:50px;
+    margin-top: 1em;
+    display: inline-grid;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    color: #6c757d
+
+}
+
+.service-image {
+/* height: 548px; */
+margin-left: 15%;
+width: 700px;
+border-radius: 2%;
+border-image: 2px;
+border-color: #F5F5F6
+}
+
+.service-icon {
+    margin-top:-40px;
+}
+
+.services-desc {
+    font-size: 16px
+}
+
+.services-background {
+    background-color:#F5F5F6;   
+    padding-top:40px 
+}
+
+.services-p {
+    width:370px;
+    color: #6c757d
+}
+
+.services {margin-top:60px;}
+
+
+@media only screen and (max-width: 700px) {
+    .services {margin-top:25px;}
+
+    .services-item {
+        width: 30px;
+        height:30px;
+        margin-top: 1em;
+        display: inline-grid;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        color: #6c757d
+    
+    }
+    .services-desc {
+        font-size: 12px
+    }
+    .service-image {
+        /* height: 548px; */
+        margin-left: 5px;
+        max-width: 400px;
+        border-radius: 2%;
+        border-image: 2px;
+        border-color: #F5F5F6
+        }
+
+        .services-p {
+            width:200px;
+            color: #6c757d
+        }
+  }
+
+  .solutions {
+    background-image: url('/src/images/solutionsbackground.webp');
+    /* background-color: slateblue; */
+    margin-top:-20px;
+}
+
+.solutions-tittle{
+    margin-bottom:-5px;
+    color: white;
+    font-weight: 100
+}
+
+
+@media only screen and (max-width: 700px) {
+    .solutions {
+        background-color: #4a50fd;
+        /* background-color: slateblue; */
+        margin-top:-20px;
+    }
+  }
+
+
+
+.search-icon {
+  height: 229px;
+  width: 229px;
+  background-image: url("/src/images/step/SearchIcon.svg");
+  background-size: auto;
+  position: absolute;
+  top:980px;
+  left:180px;
+  z-index: 1;
+}
+
+.step-icon {
+    height:175px;
+    width: 175px;
+    margin-top:-20px;
+}
+
+.part-one {
+  position:absolute;
+  top:755px;
+  left: 450px;
+}
+.part-two {
+  position:absolute;
+  top:1270px;
+  left: 650px;
+}
+
+.trazado-background {
+  position: absolute ;
+  left: 297px;
+  top: 880px;
+  background-position: center;
+  background-image: url("/src/images/step/Stepper-01.svg");
+  height: 407px;
+  width: 1327px;
+}
+
+.step-one {
+  height: 300px;
+  width: 300px;
+  background-image: url("/src/images/step/Step1.svg");
+  background-size: auto;
+  position: absolute;
+  left: 50px;
+  top: 135px;
+}
+.step-two {
+  height: 300px;
+  width: 300px;
+  background-image: url("/src/images/step/Step2.svg");
+  position: absolute;
+  left: 280px;
+  top: -30px;
+}
+.step-three {
+  height: 300px;
+  width: 300px;
+  background-image: url("/src/images/step/Step3.svg");
+  position: absolute;
+  left: 508px;
+  top: 135px;
+}
+.step-four {
+  height: 300px;
+  width: 300px;
+  background-image: url("/src/images/step/Step4.svg");
+  position: absolute;
+  left: 735px;
+  top: -30px;
+}
+.step-five {
+  height: 300px;
+  width: 300px;
+  background-image: url("/src/images/step/Step5.svg");
+  position: absolute;
+  left: 965px;
+  top: 135px;
+}
+.step-style {
+    position: absolute;
+    max-width: 70vw
+}
+
+.step-background {
+max-width: 100vw;
+z-index: 0;
+}
+
+.step-trazado {
+    z-index: 1;
+    left:15vw
+}
+
+.step-searchIcon {
+    z-index: 1;
+    left:8vw;
+}
+
+
+
+

@@ -1,13 +1,13 @@
 
 .step-background {
-    background-image: url("/src/images/step/Background.png");
+    background-image: url(/public/images/step/Background.png);
     height: 1000px;
 }
 
 .search-icon {
   height: 229px;
   width: 229px;
-  background-image: url("/src/images/step/SearchIcon.svg");
+  background-image: url("/public/images/step/SearchIcon.svg");
   background-size: auto;
   position: absolute;
   top:980px;
