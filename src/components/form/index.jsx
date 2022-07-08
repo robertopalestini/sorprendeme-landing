@@ -10,7 +10,8 @@ const LabelForm =
 
 const Form = () => {
     return (
-        <>
+        <div id="form">
+
             <div className='p-d-flex p-jc-center'>
                 <h1 className="form-tittle">¿Cómo podemos ayudarlo?</h1>
             </div>
@@ -106,7 +107,7 @@ const Form = () => {
             </div>
 
 
-        </>
+        </div>
 
     )
 }

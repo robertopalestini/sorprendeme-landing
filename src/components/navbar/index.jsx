@@ -4,15 +4,31 @@ import { SpeedDialDemo } from './Speed'
 import "primereact/resources/themes/lara-light-indigo/theme.css";  //theme
 import "primereact/resources/primereact.min.css";                  //core css
 import "primeicons/primeicons.css";                                //icons
-import Image from 'next/image'
+
+
 
 const Navbar = () => {
-        
+    const scroll2El = async (id) => {
+        var offset = await document.getElementById(id)
+        return (
+            window.scrollTo({
+                top: offset.offsetTop - 60,
+                behavior: 'smooth',
+            })
+        )
+    };
+    
+    const handlerScroll = (e) => {
+        e.preventDefault();
+        const goto = e.target.getAttribute('goto');
+        scroll2El(goto);
+    
+    }
     return (
         <>
             {/* oculto en pantallas chicas */}
-            <div className="p-d-none p-d-md-inline">
-                <div className="p-d-flex p-jc-between p-ai-center p-mt-4">
+            <div className="p-d-none p-d-md-inline" style={{'maxWidth': "100vw"}}>
+                <div className="p-d-flex p-jc-between p-ai-center p-mt-4" >
                     <div className="navbar-item">
                         <img width="" height="" src={`${process.env.PUBLIC_URL}images/LogoNavbar.svg`} alt="" className="navbar-logo" />
                         <h3 className="navbar-typologo">Sorprendeme</h3>
@@ -24,7 +40,7 @@ const Navbar = () => {
                         
                         <span className="" style={{ "marginRight": "50px" }}><a href="#"> Nosotros</a></span>
 
-                        <Button label="Contacto" className=" brandcolor" style={{ "marginRight": "10px" }} />
+                        <Button goto="form" onClick={handlerScroll} label="Contacto" className=" brandcolor" style={{ "marginRight": "10px" }} />
 
                         <Button label="LogIn" className="p-button brandcolor" />
                     </div>
