@@ -327,13 +327,21 @@ body {
     font-weight: 100
 }
 
+.solutions-backgroundColor {
+    background-color: #4a50fd;
+    padding-top: 40px;
+    min-width: 100vw;
+    max-width: 100vw;
+}
 
 @media only screen and (max-width: 700px) {
-    .solutions {
+    .solutions-back {
         background-color: #4a50fd;
         /* background-color: slateblue; */
         margin-top: -20px;
+        height: 60vw
     }
+
 }
 
 

@@ -1,8 +1,4 @@
 import { Button } from 'primereact/button';
-import Link from 'next/link'
-import { useEffect } from 'react';
-
-
 
 const Hero = () => {
     const scroll2El = async (id) => {
