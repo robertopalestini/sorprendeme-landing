@@ -32,6 +32,32 @@ body {
     padding: 1%;
 }
 
+@media only screen and (max-width: 556px) {
+    .footer {
+        background-color: #2E4866;
+        padding: 1%;
+        margin-top: 130vw;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .footer {
+        background-color: #2E4866;
+        padding: 1%;
+        margin-top: 120vw;
+    }
+    .footer-copyright {
+        color: #fff;
+        font-weight: 300;
+        text-align: center;
+        font-size: 14px
+    }
+    .form-button-size {
+        height: 30px
+        }
+}
+
+
+
 .footer-copyright {
     color: #fff;
     font-weight: 300;
@@ -43,6 +69,10 @@ body {
     display: flex;
     align-content: center;
     justify-content: center;
+}
+
+.form-button-size {
+height: 50px
 }
 
 .form-p {
@@ -357,6 +387,10 @@ body {
     z-index: 1;
 }
 
+.step-p {
+    margin-top:-10px
+}
+
 .step-icon {
     height: 175px;
     width: 175px;
@@ -476,6 +510,13 @@ background-size: cover;
 }
 
 @media only screen and (max-width: 990px) {
+    .step-text p {
+        font-family: 'Poppins';
+        font-weight: 300;
+        color: #6c757d;
+        font-size: 20px;
+        margin-top: -2.6vw;
+    }
 .step-background {
     min-width: 100vw;
     max-width: 100vw;
@@ -492,6 +533,7 @@ z-index: 0;
 
 
 @media only screen and (max-width: 1600px) {
+   
     .step-trazado {
         z-index: 1;
         left: 15vw;

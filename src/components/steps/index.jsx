@@ -1,18 +1,13 @@
-import Image from 'next/image'
-
-
 const Steps = () => {
     return (
         <>
             <div class="p-d-lg-none ">
-            
-                <div className="p-d-flex p-ai-center step-absolute ">
-                    <div className="p-grid " style={{ width: "70%" }}>
-                        <div className="p-col p-ml-4" style={{ marginTop: "-20%" }}>
+                <div className="p-d-flex p-ai-center step-absolute "  style={{"zIndex":"1"}}>
+                    <div className="p-grid " style={{ width: "70%"}}>
+                        <div className="p-col p-ml-4" >
                             <h2>Paso 1</h2>
                             <p>Relevamiento general de su documentación.</p>
                         </div>
-
                         <div className="p-col p-ml-4" >
                             <h2>Paso 3</h2>
                             <p>Nosotros procesamos, clasificamos e indexamos las mismas.</p>
@@ -42,9 +37,9 @@ const Steps = () => {
 
                     </div>
                     <div className="p-grid " style={{ width: "70%" }}>
-                        <div className="p-col p-ml-2">
+                        <div className="p-col p-ml-2" style={{marginTop:"-50px"}}>
                             <h2>Paso 2</h2>
-                            <p>Envíe las imágenes digitalizadas de sus documentos.</p>
+                            <p className="step-p">Envíe las imágenes digitalizadas de sus documentos.</p>
                         </div>
 
                         <div className="p-col p-ml-2">
@@ -54,9 +49,9 @@ const Steps = () => {
 
                     </div>
                 </div>
-                <div className='step-relative'>
+                {/* <div className='step-relative' style={{"zIndex":"0"}}>
                     <img src={`${process.env.PUBLIC_URL}images/step/Background.png`} alt="" className='step-background' />
-                </div>
+                </div> */}
               
             </div>
 

@@ -104,7 +104,7 @@ const Form = () => {
                                         <InputTextarea id="mensaje" placeholder="Mensaje" type="text" />
                                     </div>
                                     <div className="p-field p-col-8">
-                                        <Button type="button" label={LabelForm} className="form-button" />
+                                        <Button type="button" label={LabelForm} className="form-button" style={{ "height": "50px" }}  />
                                     </div>
 
                                 </div>
