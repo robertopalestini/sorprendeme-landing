@@ -18,6 +18,7 @@ const Form = () => {
             <div className='p-d-flex p-jc-center'>
                 <p className="form-p">Llene el formulario ó contáctese con nuestro asistente comercial.</p>
             </div>
+
             <div className="p-d-none p-d-md-inline">
                 <div className='p-d-flex p-jc-center p-mt-4'>
                     <div className="p-grid">
@@ -66,16 +67,16 @@ const Form = () => {
                 <div style={{"position": "absolute","left":"20vw"}}>
                     <div className='p-d-flex p-md-jc-center p-md-ai-center p-mt-4'>
                         <div className=" p-md-jc-center ">
-                            <div className=" p-jc-center ">
-                                <p >
+                            <div className="p-jc-center" style={{maxWidth:"80vw"}}>
+                                <p className="form-info">
                                     <img width="" height="" src={`${process.env.PUBLIC_URL}images/contact/material-phone-in-talk.svg`} alt="" className="p-mr-3" />
                                     (0351) 153 88 32 57
                                 </p>
-                                <p>
+                                <p className="form-info">
                                     <img width="" height="" src={`${process.env.PUBLIC_URL}images/contact/material-phonelink-ring.svg`} alt="" className="p-mr-3" />
                                     (0351) 496 1326 int. 1009
                                 </p>
-                                <p>
+                                <p className="form-info">
                                     <img width="" height="" src={`${process.env.PUBLIC_URL}images/contact/material-mail-outline.svg`} alt="" className="p-mr-3" />
                                     comercial@boxcustodia.com
                                 </p>

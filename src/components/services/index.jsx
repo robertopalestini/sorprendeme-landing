@@ -134,12 +134,12 @@ const Services = () => {
                 <div className='p-d-flex p-jc-center p-ai-center p-mt-4 services-background '>
                         <div className="p-grid">
                             <div className="p-col p-d-flex ">
-                                <div><img width="" height="" src={`${process.env.PUBLIC_URL}images/services/encontra.svg`} alt="" className="service-icon" /></div>
+                                <div className="service-icon"><img width="" height="" src={`${process.env.PUBLIC_URL}images/services/encontra.svg`} alt="" className="" /></div>
                                 <div><h3>Encontrá</h3>
                                     <p className="services-p">Toda la información de manera efectiva con este gestor y repositorio de documentos.</p></div>
                             </div>
                             <div className="p-col p-d-flex ">
-                                <div ><img width="" height="" src={`${process.env.PUBLIC_URL}images/services/optimiza.svg`} alt="" className="service-icon" /></div>
+                                <div className="service-icon"><img width="" height="" src={`${process.env.PUBLIC_URL}images/services/optimiza.svg`} alt="" className="" /></div>
                                 <div><h3>Optimizá</h3>
                                     <p className="services-p">Optimizá procesos, reducí costos y mantené tu información segura.</p></div>
                             </div>

@@ -27,8 +27,8 @@ const Navbar = () => {
     return (
         <>
             {/* oculto en pantallas chicas */}
-            <div className="p-d-none p-d-md-inline" style={{'maxWidth': "100vw"}}>
-                <div className="p-d-flex p-jc-between p-ai-center p-mt-4" >
+            <div className="p-d-none p-d-md-inline" >
+                <div className="p-d-flex p-jc-between p-ai-center p-mt-4"  style={{'maxWidth': "100vw"}} >
                     <div className="navbar-item">
                         <img width="" height="" src={`${process.env.PUBLIC_URL}images/LogoNavbar.svg`} alt="" className="navbar-logo" />
                         <h3 className="navbar-typologo">Sorprendeme</h3>
@@ -50,8 +50,8 @@ const Navbar = () => {
 
             {/* VISIBLE ON SMALL SCREEN */}
             <div className="p-d-md-none">
+            <div className="navbar">
                 <div className="p-d-flex p-jc-between p-ai-center p-mt-4">
-
                     <div className="navbar-speeddialdemo" >
                     <SpeedDialDemo model={SpeedDialDemo} direction="down" rotateAnimation={false}/>
                     {/* <i className="pi pi-bars" style={{ 'fontSize': '2em', 'color': '#000' }}></i> */}
@@ -65,6 +65,7 @@ const Navbar = () => {
 
                     </div>
 
+                </div>
                 </div>
             </div>
 
