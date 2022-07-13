@@ -4,11 +4,15 @@
 
 body {
     margin-top: 0.5vw;
-    margin-left: -8px
+    margin-left: -0.5vw
 }
 
 .brandcolor {
     background-color: #4a50fd
+}
+
+.p-button-label {
+    font-weight: 400  !important;
 }
 
 .navbar {
@@ -23,6 +27,7 @@ body {
 
 .about-logo {
     width: 400px;
+    max-width: 70vw
 }
 
 .about-p-link {
@@ -35,15 +40,25 @@ body {
 .footer {
     background-color: #2E4866;
     padding: 1%;
+    max-width: 100vw;
+    margin-left: -8px
 }
-
+.footer-copyright {
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    max-width: 100vw;
+}
 @media only screen and (max-width: 556px) {
     .footer {
         background-color: #2E4866;
         padding: 1%;
         margin-top: 130vw;
+
     }
 }
+
+
 @media only screen and (max-width: 770px) {
     .form-info {
     max-width: 90vw;
@@ -58,7 +73,8 @@ body {
         color: #fff;
         font-weight: 300;
         text-align: center;
-        font-size: 14px
+        font-size: 1rem;
+        max-width: 80vw
     }
     .form-button-size {
         height: 30px
@@ -67,11 +83,7 @@ body {
 
 
 
-.footer-copyright {
-    color: #fff;
-    font-weight: 300;
-    text-align: center;
-}
+
 
 .form-button {
 
@@ -80,6 +92,10 @@ body {
     justify-content: center;
 }
 
+.form {
+    max-width: 80vw;
+    margin-left: 10vw;
+}
 .form-button-size {
 height: 50px
 }
@@ -87,17 +103,18 @@ height: 50px
 .form-p {
     margin-top: -20px;
     color: #6c757d;
-    max-width: 80vw
+    max-width: 80vw;
+    text-align: center
 }
 
 .contact-p {
-
     color: #6c757d
 }
 
 .form-tittle {
     font-weight: 200;
-    max-width: 80vw
+    max-width: 80vw;
+    text-align: center
 }
 
 .hero-image {
@@ -107,12 +124,6 @@ height: 50px
 }
 
 .hero-p {
-    margin-top: -18px;
-    width: 70%;
-    font-size: 20px;
-    font-weight: 400;
-    color: #6c757d
-}.hero-p {
     margin-top: -18px;
     width: 70%;
     font-size: 20px;
@@ -193,14 +204,13 @@ height: 50px
 
 .navbar-item {
     padding: 2;
-    margin-right: 1%;
     font-size: 1rem;
     font-stretch: semi-expanded;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 3rem;
-    margin-left: 5%
+
 }
 
 .brandcolor {
@@ -216,7 +226,7 @@ height: 50px
 
 .navbar-item span a:hover {
     color: #4A50A2;
-    text-decoration: none;
+    text-decoration: underline ;
 }
 
 .navbar-menuitem {
@@ -224,15 +234,14 @@ height: 50px
 }
 
 .navbar-logo {
-    width: 250px;
+    width: 20vw;
     margin-top: -15px;
     margin-left: 0%;
 }
 
 .navbar-typologo {
-    font-size: 28px;
+    font-size: 2em ;
     margin-left: -40%;
-
     font-weight: 600;
     color: #4A50A2;
 }
@@ -240,7 +249,6 @@ height: 50px
 @media only screen and (max-width: 999px) {
     .navbar-typologo {
         font-size: 28px;
-        margin-left: -55%;
         font-family: "Poppins";
         font-weight: 600;
         color: #4A50A2;
@@ -278,7 +286,7 @@ height: 50px
     }
 
     .navbar-typologo {
-        font-size: 28px;
+        font-size: 1.3rem;
         margin-left: -80%;
         font-family: "Poppins";
         font-weight: 600;
@@ -286,7 +294,7 @@ height: 50px
     }
 
     .navbar-logo {
-        width: 250px;
+        width: 40vw;
         margin-top: -10px;
         margin-left: -100px
     }
@@ -306,8 +314,7 @@ height: 50px
 
 .service-image {
     /* height: 548px; */
-    margin-left: 15%;
-    width: 50vw;
+    width: 43vw;
     border-radius: 2%;
     border-image: 2px;
     border-color: #F5F5F6
@@ -326,6 +333,7 @@ height: 50px
     padding-top: 40px;
     min-width: 100vw;
     max-width: 100vw;
+    margin-left:-9px
 }
 
 .services-p {
@@ -338,7 +346,15 @@ height: 50px
 }
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
+    .service-image {
+        /* height: 548px; */
+        margin-left: 5vw;
+        width: 90vw;
+        border-radius: 2%;
+        border-image: 2px;
+        border-color: #F5F5F6
+    }
     .services {
         margin-top: 25px;
     }
@@ -358,14 +374,6 @@ height: 50px
         font-size: 12px
     }
 
-    .service-image {
-        /* height: 548px; */
-        margin-left: 5px;
-        min-width: 90vw;
-        border-radius: 2%;
-        border-image: 2px;
-        border-color: #F5F5F6
-    }
 
     .service-icon {
         margin-top: -40px;
@@ -417,6 +425,7 @@ height: 50px
     padding-top: 40px;
     min-width: 100vw;
     max-width: 100vw;
+    margin-left:-8px
 }
 
 @media only screen and (max-width: 700px) {
@@ -484,7 +493,8 @@ height: 50px
 .step-background {
     min-width: 100vw;
     max-width: 100vw;
-    max-height: 60vw;
+    /* max-height: 60vw; */
+    margin-left:-9px;
     z-index: 0;
 }
 

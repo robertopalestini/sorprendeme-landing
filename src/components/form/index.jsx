@@ -64,10 +64,10 @@ const Form = () => {
             </div>
 
             <div class="p-d-md-none">
-                <div style={{"position": "absolute","left":"20vw"}}>
+                <div style={{"position": "absolute"}}>
                     <div className='p-d-flex p-md-jc-center p-md-ai-center p-mt-4'>
                         <div className=" p-md-jc-center ">
-                            <div className="p-jc-center" style={{maxWidth:"80vw"}}>
+                            <div className="p-jc-center form" >
                                 <p className="form-info">
                                     <img width="" height="" src={`${process.env.PUBLIC_URL}images/contact/material-phone-in-talk.svg`} alt="" className="p-mr-3" />
                                     (0351) 153 88 32 57
@@ -82,29 +82,25 @@ const Form = () => {
                                 </p>
 
                             </div>
-                            <div className="p-d-flex ">
+                            <div className="p-d-flex form">
+                                
                                 <div className="p-fluid p-formgrid p-grid">
-                                    <div className="p-field p-col-2 p-md-2">
-                                        
-                                    </div>
-                                </div>
-                                <div className="p-fluid p-formgrid p-grid">
-                                    <div className="p-field p-col-8 p-md-8">
+                                    <div className="p-field p-col-9">
                                         <InputText id="nombreyapellido" placeholder="Nombre y apellido" type="text" />
                                     </div>
-                                    <div className="p-field p-col-8 p-md-8">
+                                    <div className="p-field p-col-9">
                                         <InputText id="telefono" placeholder="Telefono" type="text" />
                                     </div>
-                                    <div className="p-field p-col-8 p-md-8">
+                                    <div className="p-field p-col-9">
                                         <InputText id="email" placeholder="Email" type="text" />
                                     </div>
-                                    <div className="p-field p-col-8 p-md-8">
+                                    <div className="p-field p-col-9">
                                         <InputText id="empresa" placeholder="Empresa" type="text" />
                                     </div>
-                                    <div className="p-field p-col-8 p-md-">
+                                    <div className="p-field p-col-9">
                                         <InputTextarea id="mensaje" placeholder="Mensaje" type="text" />
                                     </div>
-                                    <div className="p-field p-col-8">
+                                    <div className="p-field p-col-9">
                                         <Button type="button" label={LabelForm} className="form-button" style={{ "height": "50px" }}  />
                                     </div>
 
@@ -116,9 +112,7 @@ const Form = () => {
                 </div>
 
             </div>
-            <div className="p-fluid p-formgrid p-grid" style={{"position":"relative"}}>
-                                   a
-                                </div>
+           
         </div>
 
     )

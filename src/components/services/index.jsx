@@ -2,7 +2,7 @@ const Services = () => {
     return (
         <>
             <section className="services ">
-                <div className="p-d-none p-d-lg-inline">
+                <div className="p-d-none p-d-md-inline">
                     <div className='p-d-flex  p-jc-center  p-mt-4'>
                         <div className="p-grid" >
                             <div className="p-col" style={{ marginTop: "30px" }}>
@@ -74,9 +74,6 @@ const Services = () => {
                 </div>
 
                 <div class="p-d-md-none">
-
-
-
                 <div className='p-d-flex  p-jc-center  p-mt-4'>
                         <div className="p-grid" >
                             <div className="p-col" style={{ marginTop: "30px" }}>
