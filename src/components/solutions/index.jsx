@@ -12,14 +12,14 @@ const Solutions = () => {
                             </div>
                             <div className="p-d-flex p-flex-column p-flex-md-row p-jc-center p-mt-3 p-ml-6 ">
                                 <div className="p-mr-6 p-d-flex  p-jc-center md:p-m">
-                                    <img src={`${process.env.PUBLIC_URL}images/JornalYaLogo.svg`} alt="Jornal Ya Logo" />
+                                    <img src={`${process.env.PUBLIC_URL}images/JornalYaLogo.svg`}  className="solutions-maxwidth" alt="Jornal Ya Logo" />
 
                                 </div>
                                 <div className="p-mr-6 p-d-flex  p-jc-center">
-                                    <img src={`${process.env.PUBLIC_URL}images/SignBoxLogo.svg`} alt="Sign Box Logo" />
+                                    <img src={`${process.env.PUBLIC_URL}images/SignBoxLogo.svg`}  className="solutions-maxwidth" alt="Sign Box Logo" />
                                 </div>
                                 <div className="p-mr-6 p-d-flex  p-jc-center">
-                                    <img src={`${process.env.PUBLIC_URL}images/WorkflowLogo.svg`} alt="Workflow Logo" />
+                                    <img src={`${process.env.PUBLIC_URL}images/WorkflowLogo.svg`} className="solutions-maxwidth"  alt="Workflow Logo" />
                                 </div>
                             </div>
                         </div>
@@ -38,14 +38,14 @@ const Solutions = () => {
 </div>
 <div className="p-d-flex p-flex-column p-flex-md-row p-jc-center p-mt-3 p-ml-6 ">
     <div className="p-mr-6 p-d-flex  p-jc-center md:p-m">
-        <img src={`${process.env.PUBLIC_URL}images/JornalYaLogo.svg`} alt="Jornal Ya Logo" />
+        <img src={`${process.env.PUBLIC_URL}images/JornalYaLogo.svg`} className="solutions-maxwidth"  alt="Jornal Ya Logo" />
 
     </div>
     <div className="p-mr-6 p-d-flex  p-jc-center">
-        <img src={`${process.env.PUBLIC_URL}images/SignBoxLogo.svg`} alt="Sign Box Logo" />
+        <img src={`${process.env.PUBLIC_URL}images/SignBoxLogo.svg`} className="solutions-maxwidth"  alt="Sign Box Logo" />
     </div>
     <div className="p-mr-6 p-d-flex p-mb-6  p-jc-center">
-        <img src={`${process.env.PUBLIC_URL}images/WorkflowLogo.svg`} alt="Workflow Logo" />
+        <img src={`${process.env.PUBLIC_URL}images/WorkflowLogo.svg`} className="solutions-maxwidth" alt="Workflow Logo" />
     </div>
 </div>
 </div>

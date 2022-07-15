@@ -85,22 +85,22 @@ const Form = () => {
                             <div className="p-d-flex form">
                                 
                                 <div className="p-fluid p-formgrid p-grid">
-                                    <div className="p-field p-col-9">
+                                    <div className="p-field p-col-12">
                                         <InputText id="nombreyapellido" placeholder="Nombre y apellido" type="text" />
                                     </div>
-                                    <div className="p-field p-col-9">
+                                    <div className="p-field p-col-12">
                                         <InputText id="telefono" placeholder="Telefono" type="text" />
                                     </div>
-                                    <div className="p-field p-col-9">
+                                    <div className="p-field p-col-12">
                                         <InputText id="email" placeholder="Email" type="text" />
                                     </div>
-                                    <div className="p-field p-col-9">
+                                    <div className="p-field p-col-12">
                                         <InputText id="empresa" placeholder="Empresa" type="text" />
                                     </div>
-                                    <div className="p-field p-col-9">
+                                    <div className="p-field p-col-12">
                                         <InputTextarea id="mensaje" placeholder="Mensaje" type="text" />
                                     </div>
-                                    <div className="p-field p-col-9">
+                                    <div className="p-field p-col-12">
                                         <Button type="button" label={LabelForm} className="form-button" style={{ "height": "50px" }}  />
                                     </div>
 

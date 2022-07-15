@@ -28,12 +28,12 @@ const Navbar = () => {
         <>
             {/* oculto en pantallas chicas */}
             <div className="p-d-none p-d-md-inline" >
-                <div className="p-d-flex p-jc-between p-ai-center p-mt-4" >
+                <div className="p-d-flex p-jc-between p-ai-center navbar-md" >
                     <div className="navbar-item" >
                         <img width="" height="" src={`${process.env.PUBLIC_URL}images/LogoNavbar.svg`} alt="" className="navbar-logo" />
                         <h3 className="navbar-typologo">Sorprendeme</h3>
                     </div>
-                    <div className="navbar-item" style={{ "marginLeft": "5%" }}>
+                    <div className="navbar-item navbar-margin">
                         <span className="" style={{ "marginRight": "5vw" }}><a href="#"> Inicio </a></span>
 
                         <span className="" style={{ "marginRight": "5vw" }}><a href="#"> Servicios</a></span>
@@ -51,20 +51,22 @@ const Navbar = () => {
             {/* VISIBLE ON SMALL SCREEN */}
             <div className="p-d-md-none">
             <div className="navbar">
-                <div className="p-d-flex p-jc-between p-ai-center p-mt-4">
+                <div className="navbar-md p-d-flex p-jc-between p-ai-center ">
+                <div className="navbar-item" style={{ position:"absolute", left:"5vw" }} >
+                <i className="pi pi-bars" style={{ 'fontSize': '1.3em', 'color': '#000' }}></i>
                     <div className="navbar-speeddialdemo" >
-                    <SpeedDialDemo model={SpeedDialDemo} direction="down" rotateAnimation={false}/>
-                    {/* <i className="pi pi-bars" style={{ 'fontSize': '2em', 'color': '#000' }}></i> */}
+                    {/* <SpeedDialDemo model={SpeedDialDemo} direction="down" rotateAnimation={false} /> */}
+                   
                     </div>
-                    <div className="navbar-item" style={{ marginLeft: "-20px" }}>
+                    </div>
+                    <div className="navbar-item navbar-item-center">
                         <img width="" height="" src={`${process.env.PUBLIC_URL}images/LogoNavbar.svg`} alt="" className="navbar-logo" />
                         <h2 className="navbar-typologo" >Sorprendeme</h2>
+                        
                     </div>
-                    <div className="navbar-item">
+                    <div className="navbar-item" style={{ position:"absolute", left:"95vw" }}>
                         <i className="pi pi-user" style={{ 'fontSize': '1.3em', 'color': '#000', marginRight: "20px" }}></i>
-
                     </div>
-
                 </div>
                 </div>
             </div>

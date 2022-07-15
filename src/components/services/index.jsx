@@ -76,7 +76,7 @@ const Services = () => {
                 <div class="p-d-md-none">
                 <div className='p-d-flex  p-jc-center  p-mt-4'>
                         <div className="p-grid" >
-                            <div className="p-col" style={{ marginTop: "30px" }}>
+                            <div className="p-col p-mt-4 p-ml-4">
                                 <div className="p-d-flex ">
                                     <div className="p-mx-auto p-px-auto p-order-1 services-item" style={{ height: '100px', width: '170px' }}>
                                         <img width="" height="" src={`${process.env.PUBLIC_URL}images/services/network.svg`} alt="" className="services-item" />
@@ -137,7 +137,7 @@ const Services = () => {
                             </div>
                             <div className="p-col p-d-flex ">
                                 <div className="service-icon"><img width="" height="" src={`${process.env.PUBLIC_URL}images/services/optimiza.svg`} alt="" className="" /></div>
-                                <div><h3>Optimizá</h3>
+                                <div className="services-info"><h3>Optimizá</h3>
                                     <p className="services-p">Optimizá procesos, reducí costos y mantené tu información segura.</p></div>
                             </div>
                         </div>

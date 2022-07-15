@@ -16,7 +16,7 @@ body {
 }
 
 .navbar {
-    max-width: 80vw;
+    max-width: 80vw !important;
 }
 
 .about-p {
@@ -41,7 +41,8 @@ body {
     background-color: #2E4866;
     padding: 1%;
     max-width: 100vw;
-    margin-left: -8px
+    margin-left: 8px;
+    margin-bottom: -10px;
 }
 .footer-copyright {
     color: #fff;
@@ -49,16 +50,6 @@ body {
     text-align: center;
     max-width: 100vw;
 }
-@media only screen and (max-width: 556px) {
-    .footer {
-        background-color: #2E4866;
-        padding: 1%;
-        margin-top: 130vw;
-
-    }
-}
-
-
 @media only screen and (max-width: 770px) {
     .form-info {
     max-width: 90vw;
@@ -81,7 +72,66 @@ body {
         }
 }
 
+@media only screen and (max-width: 656px) {
+    .footer {
+        background-color: #2E4866;
+        padding: 1%;
+        margin-top: 130vw;
 
+    }
+    .about-p-link {
+        color: slateblue;
+        font-weight: bold;
+        font-size: 13px;
+        max-width: 90vw
+    }
+}
+@media only screen and (max-width: 496px) {
+    .footer {
+        background-color: #2E4866;
+        padding: 1%;
+        margin-top: 160vw;
+    }
+}
+
+@media only screen and (max-width: 396px) {
+    .footer {
+        background-color: #2E4866;
+        padding: 1%;
+        margin-top: 170vw;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .footer {
+        background-color: #2E4866;
+        padding: 1%;
+        margin-top: 180vw;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .footer {
+        background-color: #2E4866;
+        padding: 1%;
+        margin-top: 200vw;
+    }
+}
+
+@media only screen and (max-width: 299px) {
+    .footer {
+        background-color: #2E4866;
+        padding: 1%;
+        margin-top: 230vw;
+    }
+}
+@media only screen and (max-width: 275px) {
+    .footer {
+        background-color: #2E4866;
+        padding: 1%;
+        margin-top: 255vw;
+    }
+}
 
 
 
@@ -234,27 +284,54 @@ height: 50px
 }
 
 .navbar-logo {
-    width: 20vw;
+    width: 200px;
     margin-top: -15px;
     margin-left: 0%;
 }
 
 .navbar-typologo {
     font-size: 2em ;
-    margin-left: -40%;
+    margin-left: -35%;
     font-weight: 600;
     color: #4A50A2;
 }
+.navbar-item-center {
+    position:absolute;
+    left:40vw ;
+}
 
-@media only screen and (max-width: 999px) {
+.navbar-md {
+    margin-top: 1.5rem
+}
+
+@media only screen and (max-width: 1250px) {
     .navbar-typologo {
-        font-size: 28px;
+        font-size: 1.3em;
         font-family: "Poppins";
         font-weight: 600;
         color: #4A50A2;
         max-width: 80px;
+        margin-left:-50%
     }
 }
+
+
+
+.navbar-margin {
+    margin-left: 5vw;
+}
+
+
+@media only screen and (max-width: 900px) {
+.navbar-margin {
+    margin-left: 5vw;
+}
+.navbar-typologo {
+    margin-left: -50%;
+}
+}
+
+
 
 @media only screen and (max-width: 769px) {
 
@@ -294,11 +371,38 @@ height: 50px
     }
 
     .navbar-logo {
-        width: 40vw;
         margin-top: -10px;
-        margin-left: -100px
+        margin-left: -15vw
     }
 
+    .navbar-md {
+        margin-top: 2rem;
+    }
+}
+
+
+@media only screen and (max-width: 590px) {
+    .navbar-typologo {
+    margin-left: -70%;
+    }
+    .navbar-item-center {
+        position:absolute;
+        left:30vw ;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .navbar-typologo {
+        margin-left: -45%;
+    }
+    .navbar-logo {
+        width: 140px;
+        margin-left: -40%;
+    }
+    .navbar-item-center {
+        position:absolute;
+        left:20vw ;
+    }
 }
 
 .services-item {
@@ -345,6 +449,12 @@ height: 50px
     margin-top: 60px;
 }
 
+@media only screen and (max-width: 968px) {
+    .service-image {
+        width: 90vw;
+        margin-left: 5vw
+    } 
+}
 
 @media only screen and (max-width: 768px) {
     .service-image {
@@ -377,7 +487,7 @@ height: 50px
 
     .service-icon {
         margin-top: -40px;
-        margin-left:-10vw;
+
         height:50vw;
         width:50vw
     }
@@ -386,6 +496,30 @@ height: 50px
         width: 50vw;
         color: #6c757d
     }
+}
+
+@media only screen and (max-width: 450px) {
+    .service-icon {
+        margin-left:-12%;
+        margin-right: 10%
+    }
+    .service-image {
+        margin-left:17vw
+    }
+}
+
+.solutions-maxwidth {
+    max-width: 60vw;
+}
+@media only screen and (min-width: 750px) {
+    .solutions-back {
+        min-height: 27vw;
+        min-width: 100vw;
+        max-width: 100vw;
+    }
+    .solutions-maxwidth {
+        max-width: 20vw;
+    }   
 }
 
 .solutions-back {
@@ -427,6 +561,8 @@ height: 50px
     max-width: 100vw;
     margin-left:-8px
 }
+
+
 
 @media only screen and (max-width: 700px) {
     .solutions-back {
@@ -574,6 +710,14 @@ background-size: cover;
     color: #6c757d;
     font-size: 20px;
     margin-top: -1.6vw;
+}
+@media only screen and (max-width: 500px) {
+.step-icon {
+    height: 125px;
+    width: 125px;
+    margin-top: -20px;
+
+}
 }
 
 @media only screen and (max-width: 990px) {
