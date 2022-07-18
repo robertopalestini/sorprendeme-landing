@@ -78,44 +78,44 @@ const Services = () => {
                         <div className="p-grid" >
                             <div className="p-col p-mt-4 p-ml-4">
                                 <div className="p-d-flex ">
-                                    <div className="p-mx-auto p-px-auto p-order-1 services-item" style={{ height: '100px', width: '170px' }}>
+                                    <div className="p-mx-auto p-px-auto p-order-1 services-item" style={{ height: '40%', width: '40%' }}>
                                         <img width="" height="" src={`${process.env.PUBLIC_URL}images/services/network.svg`} alt="" className="services-item" />
                                         <p className="services-desc">Integrable</p>
                                     </div>
-                                    <div className="p-mx-auto p-order-2 services-item" style={{ height: '100px', width: '170px' }}>
+                                    <div className="p-mx-auto p-order-2 services-item" style={{ height: '40%', width: '40%' }}>
                                         <img width="" height="" src={`${process.env.PUBLIC_URL}images/services/analytics.svg`} alt="" className="services-item" />
                                         <p className="services-desc">Reportes</p>
                                     </div>
                                    
                                 </div>
                                 <div className="p-d-flex">
-                                    <div className="p-mx-auto p-order-1 services-item" style={{ height: '100px', width: '170px' }}>
+                                    <div className="p-mx-auto p-order-1 services-item" style={{ height: '40%', width: '40%' }}>
                                         <img width="" height="" src={`${process.env.PUBLIC_URL}images/services/cloud-computing.svg`} alt="" className="services-item" />
                                         <p className="services-desc">Webservice</p>
                                     </div>
-                                    <div className="p-mx-auto p-order-2 services-item" style={{ height: '100px', width: '170px' }}>
+                                    <div className="p-mx-auto p-order-2 services-item" style={{ height: '40%', width: '40%' }}>
                                         <img width="" height="" src={`${process.env.PUBLIC_URL}images/services/puzzle.svg`} alt="" className="services-item" />
                                         <p className="services-desc">Customizable</p>
                                     </div>
                                     
                                 </div>
                                 <div className="p-d-flex">
-                                    <div className="p-mx-auto p-order-1 services-item " style={{ height: '100px', width: '170px' }}>
+                                    <div className="p-mx-auto p-order-1 services-item " style={{ height: '40%', width: '40%' }}>
                                         <img width="" height="" src={`${process.env.PUBLIC_URL}images/services/magnifying-glass.svg`} alt="" className="services-item" />
                                         <p className="services-desc">Búsqueda avanzada</p>
                                     </div>
-                                    <div className="p-mx-auto p-order-2 services-item" style={{ height: '100px', width: '170px' }}>
+                                    <div className="p-mx-auto p-order-2 services-item" style={{ height: '40%', width: '40%' }}>
                                         <img width="" height="" src={`${process.env.PUBLIC_URL}images/services/workflow.svg`} alt="" className="services-item" />
                                         <p className="services-desc">Workflow</p>
                                     </div>
                                 
                                 </div>
                                 <div className="p-d-flex">
-                                <div className="p-mx-auto p-order-3 services-item" style={{ height: '100px', width: '170px' }}>
+                                <div className="p-mx-auto p-order-3 services-item" style={{ height: '40%', width: '40%' }}>
                                         <img width="" height="" src={`${process.env.PUBLIC_URL}images/services/ux.svg`} alt="" className="services-item" />
                                         <p className="services-desc">Ux Design</p>
                                     </div>
-                                    <div className="p-mx-auto p-order-3 services-item" style={{ height: '100px', width: '170px' }}>
+                                    <div className="p-mx-auto p-order-3 services-item" style={{ height: '40%', width: '40%' }}>
                                         <img width="" height="" src={`${process.env.PUBLIC_URL}images/services/responsive-webpage.svg`} alt="" className="services-item" />
                                         <p className="services-desc">Multidispositivo</p>
                                     </div>
@@ -128,7 +128,7 @@ const Services = () => {
                         </div>
                     </div >
 
-                <div className='p-d-flex p-jc-center p-ai-center p-mt-4 services-background '>
+                <div className='services-background '>
                         <div className="p-grid">
                             <div className="p-col p-d-flex ">
                                 <div className="service-icon"><img width="" height="" src={`${process.env.PUBLIC_URL}images/services/encontra.svg`} alt="" className="" /></div>
