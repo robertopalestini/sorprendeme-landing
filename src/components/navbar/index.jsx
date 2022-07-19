@@ -28,7 +28,7 @@ const Navbar = () => {
         <>
             {/* oculto en pantallas chicas */}
             <div className="p-d-none p-d-md-inline" >
-                <div className="p-d-flex p-jc-between p-ai-center navbar-md" >
+                <div className="p-d-flex p-jc-between p-ai-center navbar-md"  style={{width:"93vw"}}>
                     <div className="navbar-item" >
                         <img width="" height="" src={`${process.env.PUBLIC_URL}images/LogoNavbar.svg`} alt="" className="navbar-logo" />
                         <h3 className="navbar-typologo">Sorprendeme</h3>
@@ -50,7 +50,7 @@ const Navbar = () => {
 
             {/* VISIBLE ON SMALL SCREEN */}
             <div className="p-d-md-none">
-            <div className="navbar">
+            <div className="navbar"  style={{width:"93vw"}}>
                 <div className="navbar-md p-d-flex p-jc-between p-ai-center ">
                 <div className="navbar-item" style={{ position:"absolute", left:"5vw" }} >
                 <i className="pi pi-bars" style={{ 'fontSize': '1.3em', 'color': '#000' }}></i>
@@ -64,7 +64,7 @@ const Navbar = () => {
                         <h2 className="navbar-typologo" >Sorprendeme</h2>
                         
                     </div>
-                    <div className="navbar-item" style={{ position:"absolute", left:"95vw" }}>
+                    <div className="navbar-item" style={{ position:"absolute", left:"90vw" }}>
                         <i className="pi pi-user" style={{ 'fontSize': '1.3em', 'color': '#000', marginRight: "20px" }}></i>
                     </div>
                 </div>

@@ -1,3 +1,7 @@
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
 * {
     font-family: 'Poppins';
 }
@@ -41,7 +45,7 @@ body {
     background-color: #2E4866;
     padding: 1%;
     max-width: 100vw;
-    margin-left: 8px;
+    margin-left: -0px;
     margin-bottom: -10px;
 }
 .footer-copyright {
@@ -485,26 +489,11 @@ height: 50px
     }
 
 
-    .service-icon {
-        margin-top: -40px;
-
-        height:50vw;
-        width:50vw
-    }
+ 
 
     .services-p {
         width: 50vw;
         color: #6c757d
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    .service-icon {
-        margin-left:-12%;
-        margin-right: 10%
-    }
-    .service-image {
-        margin-left:17vw
     }
 }
 

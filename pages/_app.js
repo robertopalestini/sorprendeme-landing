@@ -36,7 +36,9 @@ export default function MyApp({ Component, pageProps }) {
 
                 <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
             </Head>
+    <div className="flex flex-row">
             <Component {...pageProps} />
+    </div>
         </>
     );
 }
