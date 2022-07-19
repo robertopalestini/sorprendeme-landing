@@ -325,10 +325,23 @@ height: 50px
     text-decoration: none
 }
 
-.navbar-item span a:hover {
-    color: #4A50A2;
-    text-decoration: underline ;
-}
+.un {
+    display: inline-block;
+  }
+  
+  .un::after {
+    content: '';
+    width: 0px;
+    height: 5px;
+    display: block;
+    background: #4A50A2;
+    transition: 300ms;
+  }
+  
+  .un:hover::after {
+    width: 100%;
+  }
+
 
 .navbar-menuitem {
     margin-left: -30px;

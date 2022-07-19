@@ -34,11 +34,11 @@ const Navbar = () => {
                         <h3 className="navbar-typologo">Sorprendeme</h3>
                     </div>
                     <div className="navbar-item navbar-margin">
-                        <span className="" style={{ "marginRight": "5vw" }}><a href="#"> Inicio </a></span>
+                        <span className="" style={{ "marginRight": "5vw" }}><a className="un" href="#"> Inicio </a></span>
 
-                        <span className="" style={{ "marginRight": "5vw" }}><a href="#"> Servicios</a></span>
+                        <span className="" style={{ "marginRight": "5vw" }}><a className="un" href="#"> Servicios</a></span>
                         
-                        <span className="" style={{ "marginRight": "5vw" }}><a href="#"> Nosotros</a></span>
+                        <span className="" style={{ "marginRight": "5vw" }}><a className="un" href="#"> Nosotros</a></span>
 
                         <Button goto="form" onClick={handlerScroll} label="Contacto" className="navbar-button brandcolor" style={{ "marginRight": "1vw" }} />
 
