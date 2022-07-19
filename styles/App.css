@@ -11,6 +11,53 @@ body {
     margin-left: -0.5vw
 }
 
+
+/*Scrollbar */
+
+/* --------- */
+
+
+
+::-webkit-scrollbar {
+
+    width:7px;
+    
+    }
+    
+    
+    
+    /* Track */
+    
+    ::-webkit-scrollbar-track {
+    
+    background:#F5F5F6;
+    
+    }
+    
+    
+    
+    /* Handle */
+    
+    ::-webkit-scrollbar-thumb {
+    
+    background:#4a50fd;
+    
+    border-radius:12px;
+    
+    }
+    
+    
+    
+    /* Handle on hover */
+    
+    ::-webkit-scrollbar-thumb:hover {
+    
+    background:#4a50fd;
+    
+    border-radius:12px;
+    
+    }
+
 .brandcolor {
     background-color: #4a50fd
 }
