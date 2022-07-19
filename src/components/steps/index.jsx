@@ -103,7 +103,7 @@ const Steps = () => {
                     </div>
                 </div>
 
-                <div className='step-relative'>
+                <div className=''>
                     <img src={`${process.env.PUBLIC_URL}images/step/Background.png`} alt="" className='step-background' />
                 </div>
             </div>

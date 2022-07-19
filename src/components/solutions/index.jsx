@@ -8,7 +8,7 @@ const Solutions = () => {
                             <div className='p-d-flex p-jc-center'>
                                 <h1 className="solutions-tittle">Conoce nuestras soluciones</h1>
                             </div>
-                            <div className="p-d-flex p-flex-column p-flex-md-row p-jc-center p-mt-3 p-ml-6 ">
+                            <div className="p-d-flex p-flex-column p-flex-md-row p-jc-center p-mt-3  ">
                                 <div className="p-mr-6 p-d-flex  p-jc-center md:p-m">
                                     <img src={`${process.env.PUBLIC_URL}images/JornalYaLogo.svg`} className="solutions-maxwidth" alt="Jornal Ya Logo" />
 
